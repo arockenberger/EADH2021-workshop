@@ -4,12 +4,11 @@
 <!-- EXERCISE 4 -->
 <!-- Metadata -->
 
-<TAN-voc xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:arockenberger@gmail.com,2021:TAN-key:ethica.project">
-   <!-- Is the "id" correct? Unique ID for the FILE; make this fit an actual file -->
+<TAN-voc xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:arockenberger@gmail.com,2021:TAN-key:ethica-project">
    <head>
       <!-- Ignore the <head>; go down to the <body>. -->
       <name>Testing TAN creating a TAN voc file</name>
-      <master-location href="file:/Users/anro/Documents/GitHub/EADH2021-workshop/TAN-tutorials/tutorial%201/session%201/t-1-1-ex-4_master.xml"/>
+      <master-location href="file:/Users/anro/Documents/GitHub/EADH2021-workshop/TAN-tutorials/tutorial%201/session%201/t-1-1-ex-4.xml"/>
       <license licensor="Annika" which="by 4.0"/>
       <vocabulary-key/>
       <resp who="Annika" roles="editor"/>
@@ -31,7 +30,6 @@
       <item affects-element="work">
          <IRI>http://d-nb.info/gnd/1152218727</IRI> <!-- VD17 "work", unsure it will work -->
          <name xml:lang="ger">Ethica Complementoria</name>
-         <desc>Collection of eight complements show casing etiquette and good manners for young men in Early Modern Germany</desc>
       </item>
       
       <!-- Prob. 3 -->
@@ -39,28 +37,20 @@
       <item affects-element="scriptum">
          <IRI>tag:arockenberger@gmail.com,2016:edition:A1</IRI>
          <name>Ethica 1643</name>
-         <desc>Editio princeps. Single surviving copy in SB Bamberg</desc>
       </item>
       
       <item>
          <IRI>tag:arockenberger@gmail.com,2016:edition:A3</IRI>
          <name>Ethica Werner 1645</name>
-         <desc>Previously identified as editio princeps, but older than A1, younger than A4 and B1.</desc>
       </item>
       
       <item>
          <IRI>tag:arockenberger@gmail.com,2016:edition:B6</IRI>
          <name>Ethica Naumann 1660</name>
-         <desc>First Hamburg edition by J. Naumann</desc>
       </item>
       <!-- Prob. 4 -->
       <!-- Add at least one more <item> pertaining to some concept that is shared by your TEI files -->
       
-      <item>
-         <IRI>tag:arockenberger@gmail.com,2021:unit:chapter</IRI>
-         <name>Chapter</name>
-         <desc>Chapter as indicated in the original print</desc>
-      </item>
       
    </body>
    

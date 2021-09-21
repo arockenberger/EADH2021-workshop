@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/Users/anro/Documents/GitHub/EADH2021-workshop/TAN-2021/schemas/TAN-voc.rnc" type="application/relax-ng-compact-syntax"?>
 
 <!-- EXERCISE 2 -->
 <!-- Build your first TAN-voc file -->
 
-<TAN-voc xmlns="tag:textalign.net,2015:ns">
+<TAN-voc xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:arockenberger@gmail.com,2021:TAN-key:ethica-project"> 
+   <!-- IMPORTANT: define namespace ALWAYS -->
    
    <!-- Prob. 1 -->
    <!-- Fix the @src below so that it points to the TAN-voc schema on your local drive. -->
-   <a src="../../../TAN-2021/schemas/TAN-voc.rnc"/>
+   <a src="/Users/anro/Documents/GitHub/EADH2021-workshop/TAN-2021/schemas/TAN-voc.rnc"/>
    <!-- Oxygen tip: if the cursor is in some text, Ctrl+[Enter] will ask the Oxygen to open up the file.
       Ctrl+[click] does the same thing. -->
    <!-- Oxygen tip: Ctrl+[space] within @src or @href may produce a drop-down list of files available,

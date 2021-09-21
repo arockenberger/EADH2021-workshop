@@ -175,33 +175,29 @@
   
 
   <text>
-    <front>
+    <body>
+    <div>
       <pb facs="0001" n="[1]"/> <!-- es liegen zum Bamberger Exemplar keine offiziellen, den DFG-Richtlinien zur Digitalisierung Alter Drucke entsprechenden Digitalisate vor;
         die Transgraphierung erfolgte nach privat in Auftrag gegebenen digitalen Fotografien (TIFF-Format), die nicht für die Publikation vorgesehen sind;
         bei der Kodierung werden die einzelnen Seiten dennoch als "faks" erfasst um eine mögliche spätere Verlinkung gewährleisten zu können -->
-      <titlePage type="main"><!-- dem Standard gemäß und dem Basisformat gemäß sollten diese >div> und die folgende in <front> stehen werden -->
-      <docTitle>
-        <titlePart type="main"><hi rendition="#aq">ETHICA<lb/>COMPLEMENTORIA</hi>
-        </titlePart><lb/>
-        <titlePart type="sub"><hi rendition="#aq">Complemen-</hi><lb/>
+      <p><hi rendition="#aq">ETHICA<lb/>COMPLEMENTORIA</hi>
+        <lb/>
+        <hi rendition="#aq">Complemen-</hi><lb/>
         tier-Bu&#x0364;chlein /<lb/>Darin<lb/>Ein richtige Art vnnd<lb/>Wei&#x017f;e
         grundfo&#x364;rmlich abge-<lb/>bildet wird / wie man &#x17f;o wol mit ho-<lb/>hen
         Fu&#x364;r&#x17f;tlichen / als niedrigen Per&#x17f;onen /<lb/>auch bey
         Ge&#x17f;ell&#x17f;chafften / Jungfrawen<lb/>vnd Frawen / Hoffzierlich <hi rendition="#aq"
           >conver&#x17f;i-</hi><lb/>ren / reden vnd vmbg<gap unit="chars" quantity="4"
-            reason="lost"/><supplied resp="AR">ehen</supplied><lb/>mu&#x364;&#x17f;&#x17f;e.
-        </titlePart>
-      </docTitle><lb/>
+            reason="lost"/><supplied>ehen</supplied><lb/>mu&#x364;&#x17f;&#x17f;e.
+       <lb/></p>
+      <p>
       <figure>
         <!-- Vignette; falls möglich, eine Abb. der Vignette einbinden -->
       </figure><lb/>
-        <docImprint>Nu&#x364;rnberg /<lb/>
-          <docDate>Jm Jahr / 1643<!-- Mediavalzahlen; eigens kodieren? -->.
-          </docDate>
-        </docImprint>
-      </titlePage>
-        
-      
+      </p>
+        <p>Nu&#x364;rnberg /<lb/>Jm Jahr / 1643<!-- Mediavalzahlen; eigens kodieren? -->.
+        </p>
+    </div>
       <div type="preface">
         <pb facs="0002" n="[2]"/><!-- vacat -->
         
@@ -250,8 +246,7 @@
       </figure><lb/>
       <fw type="catch" place="bottom"><hi rendition="#aq">Co<gap reason="lost" quantity="1" unit="chars"/></hi></fw>
       </div>
-    </front>
-    <body>
+  
       <div n="1">
         
         

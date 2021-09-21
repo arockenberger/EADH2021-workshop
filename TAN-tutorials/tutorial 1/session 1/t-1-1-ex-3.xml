@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2021/schemas/TAN-voc.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="/Users/anro/Documents/GitHub/EADH2021-workshop/TAN-2021/schemas/TAN-voc.rnc" type="application/relax-ng-compact-syntax"?>
 
 <!-- EXERCISE 3 -->
 
-<TAN-voc xmlns="tag:textalign.net,2015:ns" id="tag:fill.me,2021:out" TAN-version="">
+<TAN-voc xmlns="tag:textalign.net,2015:ns" id="tag:arockenberger@gmail.com,2021:TAN-key:ethica-project" TAN-version="2021">
    <head>
       <!-- Ignore the <head>; go down to the <body>. -->
-      <name/>
-      <license licensor="" which=""/>
+      <name>Testing TAN creating a TAN voc file</name>
+      <license licensor="Annika Rockenberger" which="CC-BY 4.0"/>
       <vocabulary-key/>
-      <resp who="" roles=""/>
-      <file-resp who=""/>
-      <change when="2021-09-08" who=""/>
-      <to-do/>
+      <resp who="Annika Rockenberger" roles="editor"/>
+      <file-resp who="Annika Rockenberger"/>
+      <change when="2021-09-21" who="Annika Rockenberger"/>
+      <to-do/> <!-- can be used for actual TO-DOs; use as versioning -->
    </head>
    <body>
       <!-- Drawing from exercise 1, populate the <body> with <item>s with vocabulary relevant to your
@@ -21,12 +21,36 @@
       <!-- Prob. 1 -->
       <!-- Add the <item> for yourself -->
       
+      <item affects-element="person">
+         <IRI>tag:arockenberger@gmail.com,2021:self</IRI>
+         <name>Annika Rockenberger</name>
+         <desc>the editor of this file</desc>
+      </item>
+      
       <!-- Prob. 2 -->
       <!-- Add the <item> for the conceptual work in your corpus -->
       
+      <item affects-element="work">
+         <IRI>http://d-nb.info/gnd/1152218727</IRI> <!-- VD17 "work", unsure it will work -->
+         <name xml:lang="ger">Ethica Complementoria</name>
+      </item>
+      
       <!-- Prob. 3 -->
       <!-- Add <item>s for the books, manuscripts, and other material objects in your corpus -->
+      <item affects-element="source-scriptum">
+         <IRI>tag:arockenberger@gmail.com,2016:edition:A1</IRI>
+         <name>Ethica 1643</name>
+      </item>
       
+      <item>
+         <IRI>tag:arockenberger@gmail.com,2016:edition:A3</IRI>
+         <name>Ethica Werner 1645</name>
+      </item>
+      
+      <item>
+         <IRI>tag:arockenberger@gmail.com,2016:edition:B6</IRI>
+         <name>Ethica Naumann 1660</name>
+      </item>
       <!-- Prob. 4 -->
       <!-- Add at least one more <item> pertaining to some concept that is shared by your TEI files -->
       
