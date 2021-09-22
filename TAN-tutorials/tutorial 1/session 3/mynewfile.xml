@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/Users/anro/Documents/GitHub/EADH2021-workshop/TAN-2021/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="file:/Users/anro/Documents/GitHub/EADH2021-workshop/TAN-2021/schemas/TAN-A.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-A xmlns="tag:textalign.net,2015:ns" id="tag:arockenberger@gmail.com,2021:tan-voc:test" TAN-version="2021">
+    <head>
+        <name>A test TAN-voc file</name>
+        <license licensor="ar" which="by 4.0"></license>
+        <source xml:id="a">
+            <IRI>tag:hans@beispiel.com,2014:ringel</IRI>
+            <name>German Ring around the Rosie</name>
+            <location href="file:/Users/anro/Documents/GitHub/EADH2021-workshop/TAN-2021/examples/ring-o-roses.deu.1897.xml" accessed-when="2021-09-22"/>
+        </source>
+        <source xml:id="b">
+            <IRI>tag:park@textalign.net,2014:ring</IRI>
+            <name>A translation of Ring of Roses</name>
+            <location href="file:/Users/anro/Documents/GitHub/EADH2021-workshop/TAN-2021/examples/ring-o-roses.eng.1951.xml" accessed-when="2021-09-22"/>
+        </source>
+        <vocabulary-key>
+            <person which="Annika_Rockenberger" xml:id="ar"/>
+        </vocabulary-key>
+        <resp who="ar" roles="editor"></resp>
+        <file-resp></file-resp>
+        <change when="2021-09-22" who="ar">created file</change>
+        <to-do>
+            <comment when="2021-09-22" who="ar">something to do</comment>
+        </to-do>
+    </head>
+    <body></body>
+</TAN-A>
